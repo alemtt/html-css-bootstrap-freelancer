@@ -1,4 +1,4 @@
-.debug .site_header{
+.debug .site_header, .footer_down, .footer_up{
     height: 40px;
 }
 
@@ -6,9 +6,7 @@
     height: 400px;
 }
 
-.debug .site_portafolio{
-    height: 400px;
-}
+ 
 
 *{
     border: 1px dashed black;
@@ -31,12 +29,24 @@
     background-color: var(--bls-main);
 }
 
-.site_portafolio{
+.site_portfolio{
 
 }
 
+.site_about{
+    background-color: var(--bls-main);
+}
+
 .square{  /*just for layout*/
-    width: 100%;
+    width: 70%;
     aspect-ratio: 1;
+    background-color: var(--bls-blue);
+}
+
+.footer_down{
+    background-color: var(--bls-footer);
+}
+
+.footer_up{
     background-color: var(--bls-blue);
 }

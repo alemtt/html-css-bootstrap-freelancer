@@ -1,8 +1,8 @@
-.debug .site_header, .footer_down, .footer_up{
+.debug #header, .footer_down, .footer_up{
     height: 40px;
 }
 
-.debug .site_start{
+.debug #start{
     height: 400px;
 }
 
@@ -21,19 +21,15 @@
 }
 
 
-.site_header{
+#header{
     background-color: var(--bls-footer);
 }
 
-.site_start{
+#start{
     background-color: var(--bls-main);
 }
 
-.site_portfolio{
-
-}
-
-.site_about{
+#about{
     background-color: var(--bls-main);
 }
 

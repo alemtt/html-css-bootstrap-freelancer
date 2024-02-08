@@ -1,0 +1,20 @@
+.debug .site_header{
+    height: 40px;
+}
+
+*{
+    border: 1px dashed black;
+}
+
+:root{
+    --bls-dark: #333333FF;
+    --bls-lighter: #ffffffFF;
+    --bls-main: #1abc9cFF;
+    --bls-blue: #3a546dFF;
+    --bls-footer: #2c3e50FF;
+}
+
+
+.site_header{
+    background-color: var(--bls-footer);
+}

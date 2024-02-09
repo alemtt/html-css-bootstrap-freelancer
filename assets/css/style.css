@@ -2,9 +2,7 @@
     height: 40px;
 }
 
-.debug #start{
-    height: 400px;
-}
+
 
  
 
@@ -20,6 +18,11 @@
     --bls-footer: #2c3e50FF;
 }
 
+.avatar{
+   width: 200px;
+}
+
+.line
 
 #header{
     background-color: var(--bls-footer);
@@ -27,11 +30,19 @@
 
 #start{
     background-color: var(--bls-main);
+    color: var(--bls-lighter);
 }
 
 #about{
     background-color: var(--bls-main);
 }
+
+.column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .square{  /*just for layout*/
     width: 70%;
